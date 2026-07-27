@@ -1,8 +1,27 @@
 aid: goop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goop.png
 name: Goop
-description: Goop is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Goop is a modern lifestyle and wellness brand founded in 2008 by Gwyneth
+  Paltrow, launched from her kitchen as a weekly email newsletter and grown into a
+  content-and-commerce company spanning editorial journalism, e-commerce, and its
+  own product lines across beauty, skincare, supplements, food, fashion, home, and
+  travel. Goop operates goop.com as a curated online shop and digital magazine, publishes
+  wellness and beauty guidance, and sells goop-branded product lines (including goopglow
+  and goop Beauty) alongside a curated marketplace of third-party brands. It is a privately
+  held company backed by Lightspeed Venture Partners (Series C, 2017) and other investors.
+  Goop does not currently operate a public developer program or API; this profile captures
+  its company identity and public web surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/goop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Wellness
+- Lifestyle
+- Beauty
+- E-Commerce
+- Content
+- Health
+- Consumer Brand
+- Retail
 apis: []
+common:
+- type: DomainSecurity
+  url: security/goop-domain-security.yml
+- type: Website
+  url: https://goop.com/
+- type: Support
+  url: https://help.goop.com/
+- type: PrivacyPolicy
+  url: https://goop.com/privacy-cookies-policy/
+- type: TermsOfService
+  url: https://goop.com/web-terms-of-use/
+- type: Careers
+  url: https://goop.com/careers/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
