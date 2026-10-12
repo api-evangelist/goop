@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/goop/integrations
+- https://n8n.io/integrations/goop/
+- https://composio.dev/toolkits/goop
+- https://monid.ai/tools/goop
+checked:
+- https://composio.dev/toolkits/goop
+- https://monid.ai/tools/goop
+- https://n8n.io/integrations/goop/
+- https://zapier.com/apps/goop/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
